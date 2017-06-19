@@ -14,7 +14,14 @@ function initMap() {
     var markers = [
         ['NgongLane Kibanda, NRB',-1.3004563, 36.7858376],
         ['Prestige Kibanda, NRB', -1.3004563, 36.7841961],
-        ['Adams Kibanda, NRB', -1.3005692,36.7786378]
+        ['Adams Kibanda, NRB', -1.3005692, 36.7786378],
+        ['Korosho Kibanda, NRB', -1.3005323, 36.7823955],
+        ['CIC bus-station Kibanda, NRB', -1.3005323, 36.7823955],
+        ['Lenana Kibanda, NRB', -1.3005323, 36.7823955],
+        ['Ole Dumu Kibanda, NRB', -1.3005323, 36.7823955],
+        ['Ngong road kibanda, NRB', -1.3005323, 36.7823955],
+        ['Muringa Kibanda, NRB', -1.3005323, 36.7823955]
+
     ];
 
     // Info window content
@@ -28,6 +35,30 @@ function initMap() {
         '</div>'],
         ['<div class="info_content">' +
         '<h3>Adams Kibanda</h3>' +
+        '<p>The kibanda is well known for its delicious chapati and the sweet pilau.</p>' +
+        '</div>'],
+        ['<div class="info_content">' +
+        '<h3>Korosho Kibanda</h3>' +
+        '<p>The kibanda is well known for its delicious chapati and the sweet pilau.</p>' +
+        '</div>'],
+        ['<div class="info_content">' +
+        '<h3>CIC bus-station Kibanda</h3>' +
+        '<p>The kibanda is well known for its delicious chapati and the sweet pilau.</p>' +
+        '</div>'],
+        ['<div class="info_content">' +
+        '<h3>Lenana Kibanda</h3>' +
+        '<p>The kibanda is well known for its delicious chapati and the sweet pilau.</p>' +
+        '</div>'],
+        ['<div class="info_content">' +
+        '<h3>Ole Dumu Kibanda</h3>' +
+        '<p>The kibanda is well known for its delicious chapati and the sweet pilau.</p>' +
+        '</div>'],
+        ['<div class="info_content">' +
+        '<h3>Ngong road kibanda</h3>' +
+        '<p>The kibanda is well known for its delicious chapati and the sweet pilau.</p>' +
+        '</div>'],
+        ['<div class="info_content">' +
+        '<h3>Muringa Kibanda</h3>' +
         '<p>The kibanda is well known for its delicious chapati and the sweet pilau.</p>' +
         '</div>']
     ];
@@ -62,5 +93,6 @@ function initMap() {
         this.setZoom(14);
         google.maps.event.removeListener(boundsListener);
     });
+
 
 }

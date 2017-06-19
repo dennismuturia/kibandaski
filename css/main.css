@@ -7,6 +7,9 @@ h1,h2,h3,p{
     font-family: 'Dancing Script', cursive;
     text-align: center;
 }
+.ii{
+    width: 30%;
+}
 h3{
     color: #fff;
 }

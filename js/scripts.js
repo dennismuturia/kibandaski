@@ -5,6 +5,7 @@ function initMap() {
     var mapOptions = {
         mapTypeId: 'roadmap'
     };
+    var icony = 'Food_2.svg'
 
     // Display a map on the web page
     map = new google.maps.Map(document.getElementById("mapCanvas"), mapOptions);
@@ -128,7 +129,7 @@ function initMap() {
         marker = new google.maps.Marker({
             position: position,
             map: map,
-            //icon: 'https://cdn4.iconfinder.com/data/icons/home3/102/Untitled-12-512.png' ,
+            icon :icony,
             title: markers[i][0]
         });
 

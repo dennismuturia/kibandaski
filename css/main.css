@@ -7,11 +7,50 @@ h1,h2,h3,p{
     font-family: 'Dancing Script', cursive;
     text-align: center;
 }
+.jum{
+    font-size: 80px;
+    
+}
+.vib{
+    transition: 1000ms;
+}
+.vib:hover{
+    transform: scale(1.2);
+    transition: 1000ms;
+}
+.mee{
+    margin-top: 2%;
+}
+.same{
+    text-align: left;
+    margin-top: 3%;
+}
+.same1{
+    text-align: right;
+}
 .ii{
     width: 30%;
 }
+.me1{
+   margin-left: 60%;
+   border-radius: 50%;
+   width: 40%;
+}
+.kib{
+    width: 50%;
+}
+.me2{
+   border-radius: 50%;
+   width: 40%; 
+}
 h3{
     color: #fff;
+}
+.marg{
+    margin-top: 50%;
+    background: #fff;
+    bottom:0;
+    left:0;
 }
 p{
     font-size: 20px;
@@ -32,6 +71,7 @@ p{
     padding: 10%;
     transition: 1000ms;
 }
+
 .m:hover{
     transform: scale(1.2);
     transition: 1000ms;

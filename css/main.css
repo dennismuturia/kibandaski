@@ -13,6 +13,7 @@ h1,h2,h3,p{
 }
 .vib{
     transition: 1000ms;
+    height: 100%;
 }
 .vib:hover{
     transform: scale(1.2);

@@ -1,11 +1,13 @@
 body{
-    font-family: 'Pacifico', cursive;
-    font-family: 'Dancing Script', cursive;
+
+    font-family: 'Slabo 27px', serif;
 }
 h1,h2,h3,p{
-    font-family: 'Pacifico', cursive;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Slabo 27px', serif;;
     text-align: center;
+}
+.colorNav{
+  color: #f05f40;
 }
 .jum{
     font-size: 80px;

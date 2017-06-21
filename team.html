@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Pacifico" rel="stylesheet">
     <link rel="shortcut icon" href="image/head.png" >
+    <link rel="stylesheet" href="css/animate.css">
 </head>
 <body>
 <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -41,10 +42,10 @@
       <h1 class="jumbotron jum">Our Team</h1>
       <div class="col-md-12">
         <h1>Leader</h1>
-        <div class="col-md-3">
+        <div class="col-md-3 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
             <img src="image/me.jpg" class="me1">
         </div>
-        <div class="col-md-9">
+        <div class="col-md-9 wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">
             <p class="same">Lorem ipsum dolor sit amet, ius ei prima utroque detraxit. Atqui prompta ne mei.
             Ea per etiam erant diceret, eos viderer denique ex, veritus ponderum vel ea.
             Vix ne constituto appellantur, viris perpetua ei mei, ei usu munere tibique comprehensam.</p>
@@ -54,12 +55,12 @@
         <div class="col-md-12">
             <br/>
             <h1>Lead Gallerist</h1>
-         <div class="col-md-9">
+         <div class="col-md-9 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="2s">
             <p class="same1">Lorem ipsum dolor sit amet, ius ei prima utroque detraxit. Atqui prompta ne mei.
             Ea per etiam erant diceret, eos viderer denique ex, veritus ponderum vel ea.
             Vix ne constituto appellantur, viris perpetua ei mei, ei usu munere tibique comprehensam.</p>
         </div>
-            <div class="col-md-3">
+            <div class="col-md-3 wow fadeInRight" data-wow-duration="1s" data-wow-delay="2s">
                <img src="image/carol2.jpg" class="me2">
            </div>
         </div>
@@ -110,5 +111,9 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/scripts.js"></script>
 <script src="http://js-kit.com/polls.js"></script>
+<script src="js/wow.min.js"></script>
+<script>
+  new WOW().init();
+</script>
 </body>
 </html>

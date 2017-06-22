@@ -1,0 +1,47 @@
+.top1 {
+  margin-top: 5%;
+}
+
+.top2 {
+  margin-top: 4.5%;
+}
+
+#fb {
+  padding-left: 75%;
+}
+h3{
+  color: #000;
+}
+#twitter {
+  padding-left: -75%;
+}
+
+#linkedin {
+  padding-left: 75%;
+}
+
+#pinterest {
+  padding-left: -75%;
+}
+
+#mc_embed_signup {
+  background: #fff;
+  clear: left;
+  font: 14px Helvetica, Arial, sans-serif;
+}
+
+.inline {
+  list-style: none;
+  padding: 2.5%;
+}
+
+.in {
+  margin: 2.5%;
+  transition: 1000ms;
+}
+
+.in:hover {
+  transform: scale(1.1);
+  transition: 1000ms;
+  color: #000;
+}

@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Pacifico" rel="stylesheet">
     <link rel="shortcut icon" href="image/head.png" >
+    <link rel="stylesheet" href="css/animate.css">
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Raleway" rel="stylesheet">
 </head>
 <body>
 <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -93,11 +94,11 @@
         <br/>
         <br/>
         <div class="col-md-12">
-
-            <div class="col-md-6">
+            
+            <div class="col-md-6 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="2s">
                 <h1 class="ab">About Us</h1>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 wow fadeInRight" data-wow-duration="1s" data-wow-delay="2s">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud e
                 xercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
@@ -112,18 +113,35 @@
     <div class="row">
         <div class="col-md-12">
             <hr>
-            <div class="col-md-6">
-                <h1 class="order">Order of the day</h1>
+            <h1 class="order wow bounceInUp" data-wow-duration="1s">Order of the day</h1>
+            <br/>
+            <div class="col-md-4 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
+
                 <div class="col-md-6">
                     <img src="image/madondo.jpg" class="img">
                 </div>
-                <div class="col-md-6">
-                    <h3 class="pp">Chapo Madondo</h3>
-                    <h4 class="ppp">Price: Kes100/=</h4>
+                <div class="col-md-6 pp">
+                    <h2 class="">Chapo Madondo</h2>
+                    <h4 class="">Price: Kes100/=</h4>
                 </div>
             </div>
-            <div class="col-md-6">
-
+            <div class="col-md-4 wow fadeInBottom" data-wow-duration="1s" data-wow-delay="1s">>
+                <div class="col-md-6">
+                    <img src="image/gith.jpg" class="img">
+                </div>
+                <div class="col-md-6 pp">
+                    <h2 class="">Githeri</h2>
+                    <h4 class="">Price: Kes60/=</h4>
+                </div>
+            </div>
+            <div class="col-md-4 wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">>
+                <div class="col-md-6">
+                    <img src="image/fish.jpg" class="img">
+                </div>
+                <div class="col-md-6 pp">
+                    <h2 class="">fISH</h2>
+                    <h4 class="">Price: Kes250/=</h4>
+                </div>
             </div>
         </div>
     </div>
@@ -148,5 +166,9 @@
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/scripts.js"></script>
+<script src="js/wow.min.js"></script>
+<script>
+  new WOW().init();
+</script>
 </body>
 </html>

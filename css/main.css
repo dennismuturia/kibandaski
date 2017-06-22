@@ -1,15 +1,17 @@
 body{
-    font-family: 'Pacifico', cursive;
-    font-family: 'Dancing Script', cursive;
+
+    font-family: 'Slabo 27px', serif;
 }
 h1,h2,h3,p{
-    font-family: 'Pacifico', cursive;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Slabo 27px', serif;;
     text-align: center;
+}
+.colorNav{
+  color: #f05f40;
 }
 .jum{
     font-size: 80px;
-    
+
 }
 .vib{
     transition: 1000ms;
@@ -41,7 +43,7 @@ h1,h2,h3,p{
 }
 .me2{
    border-radius: 50%;
-   width: 40%; 
+   width: 40%;
 }
 h3{
     color: #fff;

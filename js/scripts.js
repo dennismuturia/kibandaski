@@ -11,7 +11,7 @@ $("#random").click (function(){
   }
   //console.log(selectedt;
 });
-new WOW().init();
+//new WOW().init();
 //AIzaSyA1ENv0vQTNyhcmIOxOewI-NlizlAis48A
 function initMap() {
     var map;

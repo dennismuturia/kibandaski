@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <link rel="shortcut icon" href="image/head.png" >
     <link rel="stylesheet" href="css/animate.css">
-    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Raleway" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Raleway" rel="stylesheet">
 </head>
 <body>
 <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -22,17 +22,18 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#"><img src="image/logo.png" class="logo"></a>
+      <a class="navbar-brand" href="index.html"><img src="image/logo.png" class="logo"></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#" class="trans"> Home</a></li>
-        <li><a href="#" class="trans">Gallery</a></li>
-        <li><a href="#" class="trans">Featured Vibandas</a></li>
-        <li><a href="#" class="trans">Our Team</a></li>
-        <li><a href="#" class="trans">Contact Us</a></li>
+        <li><a href="index.html" class="trans"> Home</a></li>
+        <li><a href="gallery.html" class="trans">Gallery</a></li>
+        <li><a href="feature.html" class="trans">Featured Vibandas</a></li>
+        <li><a href="team.html" class="trans">Our Team</a></li>
+        <li><a href="contact.html" class="trans">Contact Us</a></li>
+        <li><a href="maps.html" class="trans">Maps</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
@@ -42,15 +43,19 @@
         <div class="jumbotron">
              <h1>Featured Vibandas</h1>
         </div>
-        <button class="btn btn-lg btn-default wow bounce" data-wow-iteration="infinite">Play for Free Lunch</button>
+        <button type="submit" id="random" class="btn btn-lg btn-default wow bounce" data-wow-iteration="infinite">Play for Free Lunch</button>
+          <div class="container-fluid">
+    <div id="display" class="wow bounce" style="text-align: center">
+  	</div>
+  </div>
         <div class="col-md-12  mee">
-            
+
             <div class="col-md-4 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                 <a href="#" data-toggle="modal" data-target="#myModal">
                 <div class="thumbnail vib">
                     <h1>Mama Oliech</h1>
                     <img src="image/mamaoliech.jpg" class="kib">
-                    <h2>Location:<a href="#"> Hurlingham</a></h2>
+                    <h2>Location:<a href="maps.html"> Hurlingham</a></h2>
                 </div>
                 </a>
                 <!-- Modal -->
@@ -98,9 +103,9 @@
             <div class="col-md-4">
                 <a href="#" data-toggle="modal" data-target="#myModal1">
                 <div class="thumbnail vib">
-                    <h1>Adams Kibanda</h1>
-                    <img src="image/mamaoliech.jpg" class="kib">
-                    <h2>Location:<a href="#"> Ngong Road</a></h2>
+                    <h1>Nzomo Court</h1>
+                    <img src="image/k1.jpg" class="kib">
+                    <h2>Location:<a href="maps.html"> Ngong Road</a></h2>
                 </div>
                 </a>
                 <!-- Modal -->
@@ -152,23 +157,30 @@
             </div>
             <div class="col-md-4 wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">
                 <div class="thumbnail vib">
-                    <h1>Muchai Kibanda</h1>
-                    <img src="image/mamaoliech.jpg" class="kib">
-                    <h2>Location:<a href="#"> Westlands</a></h2>
+                    <h1>Kimothos</h1>
+                    <img src="image/k2.jpg" class="kib">
+                    <h2>Location:<a href="maps.html"> Westlands</a></h2>
                 </div>
             </div>
             <div class="col-md-4 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="2s">
                 <div class="thumbnail vib">
-                    <h1>Ngong Lane KIbanda</h1>
-                    <img src="image/mamaoliech.jpg" class="kib">
-                    <h2>Location:<a href="#"> Community</a></h2>
+                    <h1>Milcah Restuarant</h1>
+                    <img src="image/k3.jpg" class="kib">
+                    <h2>Location:<a href="maps.html"> Community</a></h2>
                 </div>
             </div>
             <div class="col-md-4 wow fadeInRight" data-wow-duration="1s" data-wow-delay="2s">
                 <div class="thumbnail vib">
                     <h1>Mama Oliech</h1>
-                    <img src="image/mamaoliech.jpg" class="kib">
-                    <h2>Location:<a href="#"> Hurlingham</a></h2>
+                    <img src="image/k5.jpg" class="kib">
+                    <h2>Location:<a href="maps.html"> Hurlingham</a></h2>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail vib">
+                    <h1>Mama Oliech</h1>
+                    <img src="image/k6.jpg" class="kib">
+                    <h2>Location:<a href="maps.html"> Hurlingham</a></h2>
                 </div>
             </div>
         </div>
@@ -177,13 +189,17 @@
 <footer class="marg">
    <div id="footer">
       <div class="container">
-        <div class="col-md-6">
+        <div class="col-md-5">
          <p class="muted credit">Made With <i class="fa fa-heart"></i> by kibandaski team</p>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-2">
+          &copy;2017
+        </div>
+        <div class="col-md-5">
             <ul class="list-inline text-center">
-                <li><a href="#"><i class="fa fa-facebook fa-2x m"></i></a></li>
-                 <li><a href="#"><i class="fa fa-twitter fa-2x m"></i></a></li>
+                <li><a href="https://www.facebook.com/Kibandaski-Finder-144646036101296/"><i class="fa fa-facebook fa-2x m"></i></a></li>
+                 <li><a href="https://twitter.com/kibandaski2_0"><i class="fa fa-twitter fa-2x m"></i></a></li>
+                   <li><a href="www.pinterest.com/kibandaskifinder/pins/"><i class="fa fa-pinterest fa-2x m"></i></a></li>
                   <li><a href="#"><i class="fa fa-github fa-2x m"></i></a></li>
             </ul>
         </div>

@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <link rel="shortcut icon" href="image/head.png" >
     <link rel="stylesheet" href="css/animate.css">
-    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Raleway" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Raleway" rel="stylesheet">
 </head>
 <body>
 <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -28,11 +28,13 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#" class="trans"> Home</a></li>
-        <li><a href="#" class="trans">Gallery</a></li>
-        <li><a href="#" class="trans">Featured Vibandas</a></li>
-        <li><a href="#" class="trans">Our Team</a></li>
-        <li><a href="#" class="trans">Contact Us</a></li>
+        <li><a href="index.html" class="trans"> Home</a></li>
+        <li><a href="gallery.html" class="trans">Gallery</a></li>
+        <li><a href="feature.html" class="trans">Featured Vibandas</a></li>
+        <li><a href="team.html" class="trans">Our Team</a></li>
+        <li><a href="contact.html" class="trans">Contact Us</a></li>
+        <li><a href="maps.html" class="trans">Maps</a></li>
+        
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
@@ -48,42 +50,47 @@
     <li data-target="#bs-carousel" data-slide-to="1"></li>
     <li data-target="#bs-carousel" data-slide-to="2"></li>
   </ol>
-  
+
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item slides active">
       <div class="slide-1"></div>
       <div class="hero">
         <hgroup>
-            <h1><img src="image/logo.png" class="ii"></h1>        
-            <h3>Kibandaski finder. Your Number 1 local food store locator</h3>
+            <h1><img src="image/logo.png" class="ii"></h1>
+            <h3 class="heroo">Kibandaski finder. Your Number 1 local food store locator</h3>
         </hgroup>
         <button class="btn btn-hero btn-lg" role="button">Find your nearest Kibanda</button>
       </div>
     </div>
     <div class="item slides">
       <div class="slide-2"></div>
-      <div class="hero">        
+      <div class="hero">
         <hgroup>
-             <h5><img src="image/saver.png" class="ii"></h5>       
-            <h3>Save your daily hustle.</h3>
-        </hgroup>       
+             <h5><img src="image/saver.png" class="ii"></h5>
+            <h3 class="heroo">Save your daily hustle.</h3>
+        </hgroup>
         <button class="btn btn-hero btn-lg" role="button">Find your nearest Kibanda</button>
       </div>
     </div>
     <div class="item slides">
       <div class="slide-3"></div>
-      <div class="hero">        
+      <div class="hero">
         <hgroup>
-            <h5><img src="image/rates.png" class="ii"></h5>         
-            <h3>Get best places according to customer reviews</h3>
+            <h5><img src="image/rates.png" class="ii"></h5>
+            <h3 class="heroo">Get best places according to customer reviews</h3>
         </hgroup>
         <button class="btn btn-hero btn-lg" role="button">Find your nearest Kibanda</button>
       </div>
     </div>
-  </div> 
+  </div>
 </div>
 <!--About us-->
+<div id="clock">
+  <div class="label">Now</div>
+  <div id="current-date"></div>
+  <div id="current-time"></div>
+</div>
 <div class="container-fluid">
     <div class="row">
         <br/>
@@ -94,12 +101,9 @@
                 <h1 class="ab">About Us</h1>
             </div>
             <div class="col-md-6 wow fadeInRight" data-wow-duration="1s" data-wow-delay="2s">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud e
-                xercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>We are a team of six people,  we came up with kibandaski finder to assist those in the co-operate sector, locate a nearby clean, affordable restaurant with the right type of food.This is owing to the fact that such restaurants are always in hidden places at the co-operate environment. This in turn will help them save money by spending less on food and getting the right quality of food hence improving their productivity at their various places of work.
+                  we inco-operate top notch technology to ensure your search for a restaurant is effiecient and timely.<br> Enjoy your Quality meals from. <strong>Team Kibandaski</strong>
+                </p>
             </div>
         </div>
     </div>
@@ -111,7 +115,7 @@
             <h1 class="order wow bounceInUp" data-wow-duration="1s">Order of the day</h1>
             <br/>
             <div class="col-md-4 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
-                
+
                 <div class="col-md-6">
                     <img src="image/madondo.jpg" class="img">
                 </div>
@@ -120,7 +124,7 @@
                     <h4 class="">Price: Kes100/=</h4>
                 </div>
             </div>
-            <div class="col-md-4 wow fadeInBottom" data-wow-duration="1s" data-wow-delay="1s">>
+            <div class="col-md-4 wow fadeInBottom" data-wow-duration="1s" data-wow-delay="1s">
                 <div class="col-md-6">
                     <img src="image/gith.jpg" class="img">
                 </div>
@@ -129,7 +133,7 @@
                     <h4 class="">Price: Kes60/=</h4>
                 </div>
             </div>
-            <div class="col-md-4 wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">>
+            <div class="col-md-4 wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">
                 <div class="col-md-6">
                     <img src="image/fish.jpg" class="img">
                 </div>
@@ -144,13 +148,17 @@
 <footer class="marg">
    <div id="footer">
       <div class="container">
-        <div class="col-md-6">
+        <div class="col-md-5">
          <p class="muted credit">Made With <i class="fa fa-heart"></i> by kibandaski team</p>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-2">
+          &copy;2017
+        </div>
+        <div class="col-md-5">
             <ul class="list-inline text-center">
-                <li><a href="#"><i class="fa fa-facebook fa-2x m"></i></a></li>
-                 <li><a href="#"><i class="fa fa-twitter fa-2x m"></i></a></li>
+                <li><a href="https://www.facebook.com/Kibandaski-Finder-144646036101296/"><i class="fa fa-facebook fa-2x m"></i></a></li>
+                 <li><a href="https://twitter.com/kibandaski2_0"><i class="fa fa-twitter fa-2x m"></i></a></li>
+                 <li><a href="www.pinterest.com/kibandaskifinder/pins/"><i class="fa fa-pinterest fa-2x m"></i></a></li>
                   <li><a href="#"><i class="fa fa-github fa-2x m"></i></a></li>
             </ul>
         </div>

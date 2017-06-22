@@ -1,15 +1,11 @@
-var accountSid = "AC55eb772dd66094a2971cbe4a9f496f9f";
-var authToken = "03e1b72ac9aaff447505348ccda78af5";
+$(document).ready(function(){
+   $("form").submit(function(event){
+        var telNo = $('input#mce-FNAME').val();
+        https://rest.nexmo.com/sms/json?api_key=5645f383&api_secret=f5e39886aea38d2c&to=+254711667171&from=%22NEXMO%22&text=%22Hello%20from%20Nexmo%22
+        console.log(telNo);
+    }); 
+});
 
-var client = require('twilio') (accountSid, authToken);
-client.messages.create({
-    to:"+254711667171",
-    from: "	(201) 430-7890",
-    body:"This is you",
-}, function(err, message){
-    if(err){
-        console.log(err);
-    }else{
-        console.log(message.sid);
-    }
-    });
+
+
+

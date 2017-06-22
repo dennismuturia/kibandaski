@@ -1,16 +1,23 @@
 body{
+    
+    font-family: 'Raleway', sans-serif;
 
-    font-family: 'Slabo 27px', serif;
+    font-family: 'Architects Daughter', cursive;
+
 }
 h1,h2,h3,p{
-    font-family: 'Slabo 27px', serif;;
+    
+    font-family: 'Raleway', sans-serif;
+
+    font-family: 'Architects Daughter', cursive;
+
     text-align: center;
 }
 .colorNav{
   color: #f05f40;
 }
 .jum{
-    font-size: 80px;
+    font-size: 60px;
 
 }
 .vib{
@@ -62,6 +69,14 @@ p{
 }
 .logo{
     width: 8%;
+    animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
 }
 .ab{
     font-size: 90px;

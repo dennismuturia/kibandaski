@@ -1,12 +1,12 @@
 body{
-    
+
     font-family: 'Raleway', sans-serif;
 
     font-family: 'Architects Daughter', cursive;
 
 }
 h1,h2,h3,p{
-    
+
     font-family: 'Raleway', sans-serif;
 
     font-family: 'Architects Daughter', cursive;
@@ -52,9 +52,9 @@ h1,h2,h3,p{
    border-radius: 50%;
    width: 40%;
 }
-h3{
+/*h3{
     color: #fff;
-}
+}*/
 .marg{
     margin-top: 50%;
     background: #fff;
@@ -109,7 +109,7 @@ p{
 }
 .img{
     width: 40%;
-  
+
 }
 .foot{
     width: 100%;
@@ -258,7 +258,6 @@ p{
 @media screen and (max-width: 640px){
     .hero h1 { font-size: 4em; }
 }
-
 
 /*start of gallery*/
 body {

@@ -1,15 +1,24 @@
 body{
-    font-family: 'Pacifico', cursive;
-    font-family: 'Dancing Script', cursive;
+
+    font-family: 'Raleway', sans-serif;
+
+    font-family: 'Architects Daughter', cursive;
+
 }
 h1,h2,h3,p{
-    font-family: 'Pacifico', cursive;
-    font-family: 'Dancing Script', cursive;
+
+    font-family: 'Raleway', sans-serif;
+
+    font-family: 'Architects Daughter', cursive;
+
     text-align: center;
 }
+.colorNav{
+  color: #f05f40;
+}
 .jum{
-    font-size: 80px;
-    
+    font-size: 60px;
+
 }
 .vib{
     transition: 1000ms;
@@ -41,11 +50,11 @@ h1,h2,h3,p{
 }
 .me2{
    border-radius: 50%;
-   width: 40%; 
+   width: 40%;
 }
-h3{
+/*h3{
     color: #fff;
-}
+}*/
 .marg{
     margin-top: 50%;
     background: #fff;
@@ -60,6 +69,14 @@ p{
 }
 .logo{
     width: 8%;
+    animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
 }
 .ab{
     font-size: 90px;
@@ -71,7 +88,14 @@ p{
     padding: 10%;
     transition: 1000ms;
 }
-
+.btn{
+    margin-left: 40%;
+}
+.play{
+  -vendor-animation-duration: 3s;
+  -vendor-animation-delay: 2s;
+  -vendor-animation-iteration-count: infinite;
+}
 .m:hover{
     transform: scale(1.2);
     transition: 1000ms;
@@ -81,11 +105,11 @@ p{
     margin-top: 5%;
 }
 .pp{
-    margin-left: -60%;
+    margin-left: -30%;
 }
 .img{
     width: 40%;
-    float: right;
+
 }
 .foot{
     width: 100%;
@@ -234,7 +258,6 @@ p{
 @media screen and (max-width: 640px){
     .hero h1 { font-size: 4em; }
 }
-
 
 /*start of gallery*/
 body {

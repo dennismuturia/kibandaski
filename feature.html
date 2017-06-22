@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Pacifico" rel="stylesheet">
     <link rel="shortcut icon" href="image/head.png" >
+    <link rel="stylesheet" href="css/animate.css">
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Raleway" rel="stylesheet">
 </head>
 <body>
 <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -41,9 +42,10 @@
         <div class="jumbotron">
              <h1>Featured Vibandas</h1>
         </div>
+        <button class="btn btn-lg btn-default wow bounce" data-wow-iteration="infinite">Play for Free Lunch</button>
         <div class="col-md-12  mee">
-            
-            <div class="col-md-4">
+
+            <div class="col-md-4 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                 <a href="#" data-toggle="modal" data-target="#myModal">
                 <div class="thumbnail vib">
                     <h1>Mama Oliech</h1>
@@ -82,7 +84,7 @@
                         </div>
                         <div class="col-md-8">
                             <h1>Customer reviews</h1>
-                            
+
                         </div>
                       </div>
                       <div class="modal-footer">
@@ -91,13 +93,13 @@
                     </div>
                   </div>
                 </div>
-                               
+
             </div>
             <div class="col-md-4">
                 <a href="#" data-toggle="modal" data-target="#myModal1">
                 <div class="thumbnail vib">
                     <h1>Nzomo Court</h1>
-                    <img src="image/mamaoliech.jpg" class="kib">
+                    <img src="image/k1.jpg" class="kib">
                     <h2>Location:<a href="#"> Ngong Road</a></h2>
                 </div>
                 </a>
@@ -107,7 +109,7 @@
                     <div class="modal-content">
                       <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title" id="myModalLabel">Mama Oliech</h4>
+                        <h4 class="modal-title" id="myModalLabel">Adams Kibanda</h4>
                       </div>
                       <div class="modal-body">
                         <div class="col-md-4">
@@ -131,7 +133,14 @@
                             </ul>
                         </div>
                         <div class="col-md-8">
-                            <h1>Customer reviews</h1>
+                            <h1> reviews</h1>
+                            <div class="content">
+
+                            </div>
+                            <div id="message">
+                              <textarea rows="2" cols="30">Leave your review</textarea>
+                              <button class="btn btn-lg btn-success">Post</button>
+                            </div>
                         </div>
                       </div>
                       <div class="modal-footer">
@@ -141,24 +150,31 @@
                   </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">
                 <div class="thumbnail vib">
                     <h1>Kimothos</h1>
-                    <img src="image/mamaoliech.jpg" class="kib">
+                    <img src="image/k2.jpg" class="kib">
                     <h2>Location:<a href="#"> Westlands</a></h2>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="2s">
                 <div class="thumbnail vib">
                     <h1>Milcah Restuarant</h1>
-                    <img src="image/mamaoliech.jpg" class="kib">
+                    <img src="image/k3.jpg" class="kib">
                     <h2>Location:<a href="#"> Community</a></h2>
+                </div>
+            </div>
+            <div class="col-md-4 wow fadeInRight" data-wow-duration="1s" data-wow-delay="2s">
+                <div class="thumbnail vib">
+                    <h1>Mama Oliech</h1>
+                    <img src="image/k5.jpg" class="kib">
+                    <h2>Location:<a href="#"> Hurlingham</a></h2>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="thumbnail vib">
                     <h1>Mama Oliech</h1>
-                    <img src="image/mamaoliech.jpg" class="kib">
+                    <img src="image/k6.jpg" class="kib">
                     <h2>Location:<a href="#"> Hurlingham</a></h2>
                 </div>
             </div>
@@ -184,6 +200,11 @@
 <br/>
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/reviews.js"></script>
 <script src="js/scripts.js"></script>
+<script src="js/wow.min.js"></script>
+<script>
+  new WOW().init();
+</script>
 </body>
 </htm

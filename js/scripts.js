@@ -1,3 +1,17 @@
+var myNumbers=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30];
+var randomArray=[4,8,10,20,25];
+$("#random").click (function(){
+  var number=myNumbers.length;
+  var selected=Math.floor(Math.random()*number);
+  $("#display").text(selected);
+  for(var j=0; j<randomArray.length;j++){
+    if(selected===randomArray[j]){
+      $("#display").text("You have won! Grab yourself free lunch and a 500ml bottle of hot mbuzi bone soup at one of our listed kibandaskis")
+    }
+  }
+  //console.log(selectedt;
+});
+//new WOW().init();
 //AIzaSyA1ENv0vQTNyhcmIOxOewI-NlizlAis48A
 function initMap() {
     var map;
@@ -5,6 +19,7 @@ function initMap() {
     var mapOptions = {
         mapTypeId: 'roadmap'
     };
+    var icony = 'Food_2.svg'
 
     // Display a map on the web page
     map = new google.maps.Map(document.getElementById("mapCanvas"), mapOptions);
@@ -25,6 +40,50 @@ function initMap() {
         ['Muchai Kibanda, NRB',-1.301556 ,36.7978416]
 
     ];
+    var input = document.getElementById('pac-input');
+
+     var autocomplete = new google.maps.places.Autocomplete(input);
+     autocomplete.bindTo('bounds', map);
+
+     map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
+
+     var infowindow = new google.maps.InfoWindow();
+     var infowindowContent = document.getElementById('infowindow-content');
+     infowindow.setContent(infowindowContent);
+     var marker = new google.maps.Marker({
+       map: map
+     });
+     marker.addListener('click', function() {
+       infowindow.open(map, marker);
+     });
+
+     autocomplete.addListener('place_changed', function() {
+       infowindow.close();
+       var place = autocomplete.getPlace();
+       if (!place.geometry) {
+         return;
+       }
+
+       if (place.geometry.viewport) {
+         map.fitBounds(place.geometry.viewport);
+       } else {
+         map.setCenter(place.geometry.location);
+         map.setZoom(17);
+       }
+
+       // Set the position of the marker using the place ID and location.
+       marker.setPlace({
+         placeId: place.place_id,
+         location: place.geometry.location
+       });
+       marker.setVisible(true);
+
+       infowindowContent.children['place-name'].textContent = place.name;
+       infowindowContent.children['place-id'].textContent = place.place_id;
+       infowindowContent.children['place-address'].textContent =
+           place.formatted_address;
+       infowindow.open(map, marker);
+     });
 
     // Info window content
     var infoWindowContent = [
@@ -84,7 +143,7 @@ function initMap() {
         marker = new google.maps.Marker({
             position: position,
             map: map,
-            //icon: 'https://cdn4.iconfinder.com/data/icons/home3/102/Untitled-12-512.png' ,
+            icon :icony,
             title: markers[i][0]
         });
 
@@ -108,6 +167,7 @@ function initMap() {
 
 
 }
+<<<<<<< HEAD
 var myNumbers=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30];
 var randomArray=[4,8,10,20,25];
 $("#random").click (function(){
@@ -123,3 +183,5 @@ $("#random").click (function(){
 });
 
 new WOW().init();
+=======
+>>>>>>> charles

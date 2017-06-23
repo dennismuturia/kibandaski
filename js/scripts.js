@@ -27,17 +27,17 @@ function initMap() {
 
     // Multiple markers location, latitude, and longitude
     var markers = [
-        ['NgongLane Kibanda, NRB',-1.3004563, 36.7858376],
+        ['Nzomos Court, NRB',-1.3004563, 36.7858376],
         ['Prestige Kibanda, NRB', -1.3004563, 36.7841961],
         ['Adams Kibanda, NRB', -1.3005692, 36.7786378],
-        ['Korosho Kibanda, NRB', -1.2926831, 36.7684812],
+        ['Milcah REstuarant, NRB', -1.2926831, 36.7684812],
         ['CIC bus-station Kibanda, NRB',-1.300835 ,36.776335 ],
         ['Lenana Kibanda, NRB',-1.288795 ,36.792146 ],
         ['Ole Dumu Kibanda, NRB', -1.2927807, 36.7570858],
         ['Ngong road kibanda, NRB',-1.3006198 , 36.7773287],
-        ['Muringa Kibanda, NRB',-1.296242 ,36.7724823],
-        ['kibra Kibanda, NRB',-1.306643 ,36.782662],
-        ['Muchai Kibanda, NRB',-1.301556 ,36.7978416]
+        ['Lala Court, NRB',-1.296242 ,36.7724823],
+        ['Mama Kims, NRB',-1.306643 ,36.782662],
+        ['Mama Oliech, NRB',-1.301556 ,36.7978416]
 
     ];
     var input = document.getElementById('pac-input');
@@ -95,7 +95,7 @@ function initMap() {
         '<p>the kibanda is highly praised for its githeri and ugali matumbo</p>' +
         '</div>'],
         ['<div class="info_content">' +
-        '<h3>Adams Kibanda</h3>' +
+        '<h3>Milcah Restuarant</h3>' +
         '<p>The kibanda is well known for its delicious chapati and the sweet pilau.</p>' +
         '</div>'],
         ['<div class="info_content">' +
@@ -119,15 +119,15 @@ function initMap() {
         '<p>The kibanda is well known for its delicious chapati and the sweet pilau.</p>' +
         '</div>'],
         ['<div class="info_content">' +
-        '<h3>Muringa Kibanda</h3>' +
+        '<h3>Lala Court</h3>' +
         '<p>The kibanda is well known for its delicious chapati and the sweet pilau.</p>' +
         '</div>'],
         ['<div class="info_content">' +
-        '<h3>Kibra Kibanda</h3>' +
+        '<h3>Mama kims</h3>' +
         '<p>The kibanda is well known for its delicious chapati and the sweet pilau.</p>' +
         '</div>'],
         ['<div class="info_content">' +
-        '<h3>Muchai Kibanda</h3>' +
+        '<h3>Mama Oliech</h3>' +
         '<p>The kibanda is well known for its delicious chapati and the sweet pilau.</p>' +
         '</div>']
     ];

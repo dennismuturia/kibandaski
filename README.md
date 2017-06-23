@@ -12,6 +12,8 @@ The project has been developed using HTML, CSS and Javascript. Additional API's 
 Google Maps and Mail Chimp.
 #Project Description
 The project is inspired by the need to highlight popular and credible vibandas which offer quality food at pocket friendly prices. The site aims to smoke out vibandas which have bad reviews by showcasing the legitimate vibandas.
+The website allows users to conveniently find affordable and legit vibandas nearest to their location.
+It is an information portal, providing detailed reviews and offering real time support in locating a kibanda through live chat and integrated google maps API. 
 # Specifications
 1.Home Page: The main face of the company. It has basic information regarding the concept behind the website and uses images to convey the products in the featured vibandas.
 2.Team: The page summarizes the contributors of the projects listing down their skills, education and experience.
@@ -25,3 +27,5 @@ updates and promotional content through the Mail Chimp API
 [MIT License](license)
 #Link
 The link to the deployed project is:
+[Kibandaski finder](https://dennismuturia.github.io/kibandaski/index.html)
+

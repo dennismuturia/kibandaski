@@ -23,9 +23,9 @@ updates and promotional content through the Mail Chimp API
 4.Maps: Integrates the Google maps API to assist finders locate their nearest kibanda.
 5.Featured Vibandas: Summarizes features food kibandas and indicate their locations, reviews, menus and their prices.
 6.The site has a raffle game for customers to play and win free lunch and soda.
-#License
+# License
 [MIT License](license)
-#Link
+# Link
 The link to the deployed project is:
 [Kibandaski finder](https://dennismuturia.github.io/kibandaski/index.html)
 

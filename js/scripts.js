@@ -9,7 +9,7 @@ $("#random").click (function(){
         if(selected===randomArray[j]){
           $("#display").text("You have won! Grab yourself free lunch and a 500ml bottle of hot mbuzi bone soup at one of our listed kibandaskis");
       }else{
-        $('#display').text("Sorry you loose.");
+        $('#display').text("Sorry you lose.");
           $('#random').prop('disabled', true);
       }
     }

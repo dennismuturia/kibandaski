@@ -42,6 +42,7 @@ h1,h2,h3,h4,p{
 }
 .ii{
     width: 30%;
+    z-index: 1000;
 }
 .me1{
    margin-left: 60%;
